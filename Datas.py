@@ -11,7 +11,7 @@ api = tweepy.Client(bearer_token,api_key,api_secret_key,access_token,access_toke
 
 
 # Funzione per raccogliere i tweet
-def get_tweets(query, count=100):
+def get_tweets(query):
     # Raccogli i tweet recenti (fino a 7 giorni fa)
     tweets = api.search_recent_tweets(query=query,max_results=10)
     return tweets
@@ -33,6 +33,7 @@ tweets = get_tweets(query)
 
 for tweet in tweets:
     print (tweet)
+    a = tweet.get()
     sentiment = analyze_sentiment(tweet)
     print(f"Tweet: {tweet.full_text}")
     print(f"Sentiment: {sentiment}\n")
