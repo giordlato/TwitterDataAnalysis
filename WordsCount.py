@@ -26,7 +26,7 @@ df_restricted['cleaned_words'] = df_restricted['content'].apply(clean_text)
 all_words = [word for words in df_restricted['cleaned_words'] for word in words]
 stop_words = set(stopwords.words('english'))
 all_words = [word for word in all_words if word not in stop_words]
-
+all_words = [word for word in all_words if word != 'realdonaldtrump' and word != 'http' and word != 'https' and word != 'would' and word != 'get']
 '''Studio la frequenza e stampo le parole con frequenza'''
 
 word_freq = Counter(all_words)
