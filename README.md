@@ -9,3 +9,5 @@ Datas = Just a first test, it's a prototype to do twitter scraping but you'd nee
 Sentiment = Python code to study Trump's tweets' sentiment over the years.
 
 WordsCount = Python code to study the annoying Orange's favourite words.
+
+![word_frequency](https://github.com/user-attachments/assets/0007fac2-d13f-46cd-8e27-c1ee4892a50f)
