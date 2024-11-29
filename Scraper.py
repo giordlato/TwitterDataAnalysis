@@ -9,6 +9,7 @@ pd.set_option('display.max_rows', 1000000)
 df = df.drop(df.columns[[0, 1,4,5,6,7]], axis=1)
 # Esplora i dati (prima riga per capire la struttura)
 df_restricted = df[['content', 'date']]
+print("ciao")
 def get_sentiment(text):
     blob = TextBlob(text)
     return blob.sentiment.polarity
