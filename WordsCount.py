@@ -1,5 +1,4 @@
 import csv
-
 import pandas as pd
 import matplotlib.pyplot as plt
 from nltk.corpus import stopwords
