@@ -10,4 +10,4 @@ Sentiment = Python code to study Trump's tweets' sentiment over the years.
 
 WordsCount = Python code to study the annoying Orange's favourite words.
 
-![word_frequency](https://github.com/user-attachments/assets/0007fac2-d13f-46cd-8e27-c1ee4892a50f)
+![word_frequency](https://github.com/user-attachments/assets/d1a1c58b-b53c-41ea-882e-844e3347c8df)
