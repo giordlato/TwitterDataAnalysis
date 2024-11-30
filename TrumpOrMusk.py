@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 from keras.src.saving import load_model
+from tensorflow.keras.utils import plot_model
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
@@ -33,7 +34,8 @@ padded_sequences = pad_sequences(sequences, maxlen=50, padding='post', truncatin
 '''Carico il modello'''
 
 model = load_model('trump_musk_classifier.h5')
-
+model.build(input_shape=(None, 50))
+plot_model(model, to_file='trump_musk_model.png', show_shapes=True)
 '''Test di input'''
 
 input_phrase = input('Enter a tweet: \n')
