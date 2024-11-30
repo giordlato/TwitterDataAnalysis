@@ -17,4 +17,4 @@ TrumpTweetsIdentifier = Neural network (backend)
 TrumpOrMusk = You can use it to tesk if a tweet belongs to the Orange man or the Crazy rocket guy
 
 ![word_frequency](https://github.com/user-attachments/assets/d1a1c58b-b53c-41ea-882e-844e3347c8df)
-![topic_frequencies](https://github.com/user-attachments/assets/2d5eaf9e-7686-4e1c-b5d8-2628f4800316)
+![trump_musk_model](https://github.com/user-attachments/assets/836fe50f-a92b-4d07-b9f0-9b0330b6d087)
